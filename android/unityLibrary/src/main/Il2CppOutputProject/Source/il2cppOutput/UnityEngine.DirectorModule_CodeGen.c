@@ -1,0 +1,543 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void DataPlayableBindings_CreateHandleInternal_mE28FB42B1A423251A89B2B8FA924A172B3710BF3 (void);
+extern void DataPlayableBindings_CreateHandleInternal_Injected_m485CA5B551961B10BE18D5F968DA8DCA02C2CD01 (void);
+extern void DataPlayableOutput_GetStreamType_m508E2100EDF8A9C1274A526E44E0AC377646FAF2 (void);
+extern void DataPlayableOutput_GetConnectionChanged_m737D66E5A32DBCBB7E28FA42E7A60A46666C87FB (void);
+extern void DataPlayableOutput_ClearConnectionChanged_m4E79BCFFF424921B92089D94822B461E5055F59D (void);
+extern void DataPlayableOutput__ctor_m09D4185F0C250450BE1FF451995AC6DFDF8176DD (void);
+extern void DataPlayableOutput_get_Null_m96FE20A44766E1505766A9584B21579C54D8F7CF (void);
+extern void DataPlayableOutput_GetHandle_m80B8C82F9002EC765218149A007490FEBAEE07B7 (void);
+extern void DataPlayableOutput_op_Implicit_m874E0287582C5577DF1734C7DCE2A24122D8C15E (void);
+extern void DataPlayableOutput_op_Explicit_m3E6E3558EF54223CB496DB2A5E9886F110FF4719 (void);
+extern void DataPlayableOutput_GetPlayer_mD4CB86FB8E6BD6B08D9C2375ADC9D57D8164EA03 (void);
+extern void DataPlayableOutput_InternalGetPlayer_m8D065BA7E4F32694E4703F8673EC3562D3709C0C (void);
+extern void DataPlayableOutput_InternalSetPlayer_m3BC8275F6E521B060343EF4409512226C3D58874 (void);
+extern void DataPlayableOutput_InternalGetType_mDB387E394B710001E0357FF0DBDE3F6D39A65DDA (void);
+extern void DataPlayableOutput_InternalSetStream_m7FEEF5A2232E9022B4A9528E1E107D2F4D9EF912 (void);
+extern void DataPlayableOutput_InternalGetStream_m604B87CDA1C379D4AF60E96220CB65E63EE3A0A0 (void);
+extern void DataPlayableOutput_InternalGetConnectionChanged_mE7495CC299D7C4918C0C73C413E8A0FCAB24E49E (void);
+extern void DataPlayableOutput_InternalClearConnectionChanged_m32EA2F952ABFA50BCF3D2E8EB585282E5065F41A (void);
+extern void DataPlayableOutput_Internal_CallOnPlayerChanged_mE9D28970561BDA75DE3C3605481E417D94E1F084 (void);
+extern void DataPlayableOutput_InternalGetPlayer_Injected_m6EE716370DEE86D2C4101BBFAC6AA91128B7D633 (void);
+extern void DataPlayableOutput_InternalSetPlayer_Injected_m9B6DF3FE0CD82E00EE015FDD613599EAC6758D80 (void);
+extern void DataPlayableOutputExtensions_InternalCreateDataOutput_mEDB6D6AAA9D3427C705997936F5545827AD33932 (void);
+extern void DataPlayableOutputExtensions_InternalCreateDataOutput_Injected_m97E0238C73F797DE287726AEF48C367DC9E58C7F (void);
+extern void PlayableDirector_get_state_m49AFA6EADEACC4A020AB14F4FA6F32FC1925A93C (void);
+extern void PlayableDirector_set_extrapolationMode_m4F34CE7E1527D8F2A0BC1E5D003C78A4604FADB7 (void);
+extern void PlayableDirector_get_extrapolationMode_m942C1A4A49D9D81DF54B742A0EFE22ED6D6BCDDD (void);
+extern void PlayableDirector_get_playableAsset_m02BE3315FD9BF897F49AE020F3FE4278529FEB7C (void);
+extern void PlayableDirector_set_playableAsset_mC8E8E91BAD45035A183E0C8E920626B437D6263B (void);
+extern void PlayableDirector_get_playableGraph_m57400FA3DC53BEB44ECEEFCA0A07EC7B8DAEAB7F (void);
+extern void PlayableDirector_get_playOnAwake_m2A99756D8D17B8FBA329BABF6B641D473DBD90E2 (void);
+extern void PlayableDirector_set_playOnAwake_mE95232C47209C2F9E414D561C58D53418B8E3A8F (void);
+extern void PlayableDirector_DeferredEvaluate_mB87912913EA74033DF28BD325E55F3D1E171C23C (void);
+extern void PlayableDirector_Play_m6816CC7327CAE3BDA0B6AB7A73EED4315D2DC57B (void);
+extern void PlayableDirector_Play_m8C2D0E5C525817068EFA757221AFBEA4B4678F27 (void);
+extern void PlayableDirector_Play_m35ABD2C6E99A600DBAA6E2A8FC4EA47C74F8F452 (void);
+extern void PlayableDirector_SetGenericBinding_m6A14E1731C8CB0198777B8063DC278CE1166D244 (void);
+extern void PlayableDirector_set_timeUpdateMode_m31564B33CFAB9E9BBF7964970E1990F491272E17 (void);
+extern void PlayableDirector_get_timeUpdateMode_m0E3162CC808AED8F717496C53F92C61AFF87FB80 (void);
+extern void PlayableDirector_set_time_mCC149D4694C248ABAD39BE32912168655BD7A8D1 (void);
+extern void PlayableDirector_get_time_m97D770710A5150E8E72DE2A5677E37D59C4BE357 (void);
+extern void PlayableDirector_set_initialTime_mB36EFEA98AC9F650CD92A73B4B717B44E0A9CD02 (void);
+extern void PlayableDirector_get_initialTime_mDB1A2FEE06944870DCE1A71AF6A84844E9B694BF (void);
+extern void PlayableDirector_get_duration_mEA5C8076E9806A26B9E9075D07485CBF7046E1F6 (void);
+extern void PlayableDirector_Evaluate_m642F91B545243B203F7517EF5F44F09FFD3C7842 (void);
+extern void PlayableDirector_PlayOnFrame_mBD1EEDB85731D65E97110798197A72D2079ED9D5 (void);
+extern void PlayableDirector_Play_m937BA3BFAA11918A42D9D7874C0668DDD4B40988 (void);
+extern void PlayableDirector_Stop_m60A3AA3874D92B4740A312ECA0E76210D04F207E (void);
+extern void PlayableDirector_Pause_mC5749A3523008A3FD9E9E001999A88EE030FD104 (void);
+extern void PlayableDirector_Resume_m8D0E95B7A33EEA6F5A7CEF05FE5D6A6B7E3AD178 (void);
+extern void PlayableDirector_RebuildGraph_m344F4BA72962159E6F76F4B4C2E203BEB802D0F5 (void);
+extern void PlayableDirector_ClearReferenceValue_m011DC51A81993B00D95ACC74FD90291363AB534C (void);
+extern void PlayableDirector_SetReferenceValue_m2CD757BCF2F23538F99A0DE09AC87A03EC90EADE (void);
+extern void PlayableDirector_GetReferenceValue_m635841386147673FFBBEF0CD9DA908337F3C97C8 (void);
+extern void PlayableDirector_GetGenericBinding_mEA8A86CEFAD08BEC596E06C3E1B1E0095E69D020 (void);
+extern void PlayableDirector_ClearGenericBinding_mB68594465FC0DA4DA847830887157C1BE6D366E1 (void);
+extern void PlayableDirector_RebindPlayableGraphOutputs_mEDA5855AED2223620A84E0DB99186F4953874B2A (void);
+extern void PlayableDirector_ProcessPendingGraphChanges_m97DFC4879F7CC9B7B55B242494D62DDF843844D5 (void);
+extern void PlayableDirector_HasGenericBinding_m94B154CC81AFA99A98383CA1ED7D56AB46E463DB (void);
+extern void PlayableDirector_GetPlayState_m530EE60FE30CAAB5BCA57F96C93964A26DD254BE (void);
+extern void PlayableDirector_SetWrapMode_mDA42ABB7479C351AA377797F29DCEA54684264DB (void);
+extern void PlayableDirector_GetWrapMode_m91F64F0166340F3C55911879B448B32C3271686A (void);
+extern void PlayableDirector_EvaluateNextFrame_m07FBD909431C2A913B46581622A247A469B3FBEC (void);
+extern void PlayableDirector_GetGraphHandle_m71F1BC34DF71AAACDDC44ACC74FFD66200875896 (void);
+extern void PlayableDirector_SetPlayOnAwake_m4ABF4DB3685AB38CBBC856FD52D8C1BD3D89D755 (void);
+extern void PlayableDirector_GetPlayOnAwake_mDF2FAEAD040E29871245FB5AD6A9AA525B5B64C3 (void);
+extern void PlayableDirector_Internal_SetGenericBinding_m5889234A1C5222C3ACFA329202AD6D58B3C4AFC5 (void);
+extern void PlayableDirector_SetPlayableAsset_mCB30A400861B0D554BF6B397A2469B4C15AAE01D (void);
+extern void PlayableDirector_Internal_GetPlayableAsset_m74CF2B5E24E39114ED3A256185175BCC2CF31F24 (void);
+extern void PlayableDirector_add_played_m8A41D810B43EA46886904460F74EFD184AAE8604 (void);
+extern void PlayableDirector_remove_played_mEDED15F8A15D2D32F464D1B9C07AF51451BF4374 (void);
+extern void PlayableDirector_add_paused_m23F6F60C960AAA38C9C73CC75265D3E3FF0105DB (void);
+extern void PlayableDirector_remove_paused_m5AC5D63CBF564106D6A4EA018CC5D851C6F5AF31 (void);
+extern void PlayableDirector_add_stopped_m8162B112FF06D90F144C49E6C990F705DFC28C96 (void);
+extern void PlayableDirector_remove_stopped_m615BBD51C1CA79B01469504CD9403C84938C535F (void);
+extern void PlayableDirector_ResetFrameTiming_m6842816BD7123E2F0AD11D198DA684199BB03206 (void);
+extern void PlayableDirector_SendOnPlayableDirectorPlay_m7F75DBA4355DAA92F53AC337BB952069B63081A0 (void);
+extern void PlayableDirector_SendOnPlayableDirectorPause_m1B8EE7CBD23957C664AA417A9261194DFFFADFE1 (void);
+extern void PlayableDirector_SendOnPlayableDirectorStop_m4E9AEB579B8EA66ECC6FA9BE23BBF7973AB3EDD7 (void);
+extern void PlayableDirector__ctor_mAC3BE2F955641A2D384EAE3235FFBF8ECFD27E3B (void);
+extern void PlayableDirector_set_timeUpdateMode_Injected_mA4C0946C83A67C4C9EC105FE99DB79B1318577A1 (void);
+extern void PlayableDirector_get_timeUpdateMode_Injected_m7EBE44D6F02FDF69257B401E8ACBD4A930DC894B (void);
+extern void PlayableDirector_set_time_Injected_m7EDEBA105958A9CFD41C4AFFEB06937ACAA13CF8 (void);
+extern void PlayableDirector_get_time_Injected_m5722262666B2F15C64B5808B075D35BC21B5A17F (void);
+extern void PlayableDirector_set_initialTime_Injected_m88738F7173CEE5790408BC8C68D300B79F45F499 (void);
+extern void PlayableDirector_get_initialTime_Injected_m2C08038A577C5B67351C6D5A4514C3C2807FEC77 (void);
+extern void PlayableDirector_get_duration_Injected_mC5583B608A16B5805391BEBC35A8908C958F40DC (void);
+extern void PlayableDirector_Evaluate_Injected_m25F97DF7CF2A0519E7E193BD09A3D933378BDAE6 (void);
+extern void PlayableDirector_PlayOnFrame_Injected_mAA9B323F9E7F6F40F72753F281DFB334331D900C (void);
+extern void PlayableDirector_Play_Injected_m32655FF0EA2EB49170EB24A157537F9281F255BB (void);
+extern void PlayableDirector_Stop_Injected_m78F1D94BF181780F3FAE61B3E40A2D0121F9ECBF (void);
+extern void PlayableDirector_Pause_Injected_m54D6643FC6939E2E691242CAA79C828C6D5F44A7 (void);
+extern void PlayableDirector_Resume_Injected_m46A4738670202E3B39AC903B498BC4FAAB3ADAB8 (void);
+extern void PlayableDirector_RebuildGraph_Injected_m89446B9A20AECAC8780235674BCC9ADBE47005F7 (void);
+extern void PlayableDirector_ClearReferenceValue_Injected_mBBB2EC5FEFD9F48CB6161465F33322025CF5FC5E (void);
+extern void PlayableDirector_SetReferenceValue_Injected_mF972CE31046AC1A5008023A46BEA3DD5EEB0499A (void);
+extern void PlayableDirector_GetReferenceValue_Injected_mEB2069AE5364ACFD7D8ACEC39A0A41AFE9487B5B (void);
+extern void PlayableDirector_GetGenericBinding_Injected_m9DEA68F070EBDF1DD99701F71B31E274A66B0959 (void);
+extern void PlayableDirector_ClearGenericBinding_Injected_mA58AEF8EBA03934B78921D8EA735D03587305828 (void);
+extern void PlayableDirector_RebindPlayableGraphOutputs_Injected_m50C4BE8F21CA228BD061FCC0F043D2A734E7F53A (void);
+extern void PlayableDirector_ProcessPendingGraphChanges_Injected_m99C03613D7A3D8FEC362C845D440BD8CB5C778FC (void);
+extern void PlayableDirector_HasGenericBinding_Injected_m1BADADA01CC60C9B012FA2AE55BEAB79E35EB1E8 (void);
+extern void PlayableDirector_GetPlayState_Injected_mB4EC1173A623C1F93BBF2F07B35571FCE4BABB9D (void);
+extern void PlayableDirector_SetWrapMode_Injected_mD56EA105111828B1B10DA96E0648A8D78AF25088 (void);
+extern void PlayableDirector_GetWrapMode_Injected_m829B6C82F8AA732137040887679EAB3A5A8BBDF6 (void);
+extern void PlayableDirector_EvaluateNextFrame_Injected_m987A396334AC647BDD747823C605144FF48DF9EF (void);
+extern void PlayableDirector_GetGraphHandle_Injected_mC00F0AADEE9F9D60651B56941E2365A010F0A795 (void);
+extern void PlayableDirector_SetPlayOnAwake_Injected_m4499C6650BD092A230E7BA6401A252DFA54612C6 (void);
+extern void PlayableDirector_GetPlayOnAwake_Injected_m729273BE9902E44B531E56C3945C6843CB8D7109 (void);
+extern void PlayableDirector_Internal_SetGenericBinding_Injected_m569BFD74C51A3195F7FCDC3C8537C05BDF0F6EEA (void);
+extern void PlayableDirector_SetPlayableAsset_Injected_m29B2F60A5F59F4952A48DF0303E21783CE900335 (void);
+extern void PlayableDirector_Internal_GetPlayableAsset_Injected_m4B7AD1ADA45F69AE77C90254710CA4D8B4721186 (void);
+extern void PlayableSystems_RegisterSystemPhaseDelegate_mE258A19174C6B5F548CC8CD08D76AF2EDAE0220E (void);
+extern void PlayableSystems_CombineTypeAndIndex_mEBEB1D607AD575E4529FB65639A36EC27B6AFD4B (void);
+extern void PlayableSystems_Internal_CallSystemDelegate_m136EBFEF08BD32F54BD31618B0ADC065128F8172 (void);
+extern void PlayableSystems_RegisterStreamStage_m13871D003178637C5452ED9F9782F22D7868144F (void);
+extern void PlayableSystems__cctor_m2BFE9B62FC9C8645D7BFCECA1F01375AA78CF96D (void);
+extern void PlayableSystemDelegate__ctor_m10A39FB62385BCDF62B66BD42D6D530E5E6A1327 (void);
+extern void PlayableSystemDelegate_Invoke_mD76C614ECD430C10A80EEC63C48F4FF1AB028CDA (void);
+extern void PlayableSystemDelegate_BeginInvoke_m11116C9E05C72EE34CEA64E579565B232898CE86 (void);
+extern void PlayableSystemDelegate_EndInvoke_m7FDC2AAD69F73ECA6B5AA90B424F35D3A3B550A9 (void);
+extern void DataPlayableOutputList__ctor_m09A66E3E13839499FC39827D4D9D0DDFA2DD67DE (void);
+extern void DataPlayableOutputList_get_Item_mA80CA406E46F4F080ABAB99E051D5E2D0AE45E50 (void);
+extern void DataPlayableOutputList_get_Count_m0EC8BD2A1019FCD8FC91958C77984A0E82510563 (void);
+extern void DataPlayableOutputList_GetEnumerator_m9DF35C937E6EA512473E9325907F67F7193F44E3 (void);
+extern void DataPlayableOutputList_System_Collections_IEnumerable_GetEnumerator_mAC992F70F1C916ED4E6C25D1E11E131E74E300CA (void);
+extern void DataPlayableOutputEnumerator__ctor_mF4F8AA9EA2C8DFCA012153075C455776E4DCACA9 (void);
+extern void DataPlayableOutputEnumerator_get_Current_m5D0C5B0FB965DE063CF30355005A469AF5CA662E (void);
+extern void DataPlayableOutputEnumerator_System_Collections_IEnumerator_get_Current_mB75452FA96BDDBB1F1C97FA5BC794110636F4837 (void);
+extern void DataPlayableOutputEnumerator_Dispose_m5BD2B7D3897D0EBF12FAE16E334B3951BAD4C8A0 (void);
+extern void DataPlayableOutputEnumerator_MoveNext_m79AF7F2D9D94412B14EE28BA574B598B61B382D9 (void);
+extern void DataPlayableOutputEnumerator_Reset_mD8CE079A62EAB2C1D0A3D4CC780C7748D47247FF (void);
+static Il2CppMethodPointer s_methodPointers[152] = 
+{
+	DataPlayableBindings_CreateHandleInternal_mE28FB42B1A423251A89B2B8FA924A172B3710BF3,
+	DataPlayableBindings_CreateHandleInternal_Injected_m485CA5B551961B10BE18D5F968DA8DCA02C2CD01,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	DataPlayableOutput_GetStreamType_m508E2100EDF8A9C1274A526E44E0AC377646FAF2,
+	DataPlayableOutput_GetConnectionChanged_m737D66E5A32DBCBB7E28FA42E7A60A46666C87FB,
+	DataPlayableOutput_ClearConnectionChanged_m4E79BCFFF424921B92089D94822B461E5055F59D,
+	NULL,
+	NULL,
+	NULL,
+	DataPlayableOutput__ctor_m09D4185F0C250450BE1FF451995AC6DFDF8176DD,
+	DataPlayableOutput_get_Null_m96FE20A44766E1505766A9584B21579C54D8F7CF,
+	DataPlayableOutput_GetHandle_m80B8C82F9002EC765218149A007490FEBAEE07B7,
+	DataPlayableOutput_op_Implicit_m874E0287582C5577DF1734C7DCE2A24122D8C15E,
+	DataPlayableOutput_op_Explicit_m3E6E3558EF54223CB496DB2A5E9886F110FF4719,
+	DataPlayableOutput_GetPlayer_mD4CB86FB8E6BD6B08D9C2375ADC9D57D8164EA03,
+	NULL,
+	DataPlayableOutput_InternalGetPlayer_m8D065BA7E4F32694E4703F8673EC3562D3709C0C,
+	DataPlayableOutput_InternalSetPlayer_m3BC8275F6E521B060343EF4409512226C3D58874,
+	DataPlayableOutput_InternalGetType_mDB387E394B710001E0357FF0DBDE3F6D39A65DDA,
+	DataPlayableOutput_InternalSetStream_m7FEEF5A2232E9022B4A9528E1E107D2F4D9EF912,
+	DataPlayableOutput_InternalGetStream_m604B87CDA1C379D4AF60E96220CB65E63EE3A0A0,
+	DataPlayableOutput_InternalGetConnectionChanged_mE7495CC299D7C4918C0C73C413E8A0FCAB24E49E,
+	DataPlayableOutput_InternalClearConnectionChanged_m32EA2F952ABFA50BCF3D2E8EB585282E5065F41A,
+	DataPlayableOutput_Internal_CallOnPlayerChanged_mE9D28970561BDA75DE3C3605481E417D94E1F084,
+	DataPlayableOutput_InternalGetPlayer_Injected_m6EE716370DEE86D2C4101BBFAC6AA91128B7D633,
+	DataPlayableOutput_InternalSetPlayer_Injected_m9B6DF3FE0CD82E00EE015FDD613599EAC6758D80,
+	DataPlayableOutputExtensions_InternalCreateDataOutput_mEDB6D6AAA9D3427C705997936F5545827AD33932,
+	DataPlayableOutputExtensions_InternalCreateDataOutput_Injected_m97E0238C73F797DE287726AEF48C367DC9E58C7F,
+	NULL,
+	NULL,
+	PlayableDirector_get_state_m49AFA6EADEACC4A020AB14F4FA6F32FC1925A93C,
+	PlayableDirector_set_extrapolationMode_m4F34CE7E1527D8F2A0BC1E5D003C78A4604FADB7,
+	PlayableDirector_get_extrapolationMode_m942C1A4A49D9D81DF54B742A0EFE22ED6D6BCDDD,
+	PlayableDirector_get_playableAsset_m02BE3315FD9BF897F49AE020F3FE4278529FEB7C,
+	PlayableDirector_set_playableAsset_mC8E8E91BAD45035A183E0C8E920626B437D6263B,
+	PlayableDirector_get_playableGraph_m57400FA3DC53BEB44ECEEFCA0A07EC7B8DAEAB7F,
+	PlayableDirector_get_playOnAwake_m2A99756D8D17B8FBA329BABF6B641D473DBD90E2,
+	PlayableDirector_set_playOnAwake_mE95232C47209C2F9E414D561C58D53418B8E3A8F,
+	PlayableDirector_DeferredEvaluate_mB87912913EA74033DF28BD325E55F3D1E171C23C,
+	PlayableDirector_Play_m6816CC7327CAE3BDA0B6AB7A73EED4315D2DC57B,
+	PlayableDirector_Play_m8C2D0E5C525817068EFA757221AFBEA4B4678F27,
+	PlayableDirector_Play_m35ABD2C6E99A600DBAA6E2A8FC4EA47C74F8F452,
+	PlayableDirector_SetGenericBinding_m6A14E1731C8CB0198777B8063DC278CE1166D244,
+	PlayableDirector_set_timeUpdateMode_m31564B33CFAB9E9BBF7964970E1990F491272E17,
+	PlayableDirector_get_timeUpdateMode_m0E3162CC808AED8F717496C53F92C61AFF87FB80,
+	PlayableDirector_set_time_mCC149D4694C248ABAD39BE32912168655BD7A8D1,
+	PlayableDirector_get_time_m97D770710A5150E8E72DE2A5677E37D59C4BE357,
+	PlayableDirector_set_initialTime_mB36EFEA98AC9F650CD92A73B4B717B44E0A9CD02,
+	PlayableDirector_get_initialTime_mDB1A2FEE06944870DCE1A71AF6A84844E9B694BF,
+	PlayableDirector_get_duration_mEA5C8076E9806A26B9E9075D07485CBF7046E1F6,
+	PlayableDirector_Evaluate_m642F91B545243B203F7517EF5F44F09FFD3C7842,
+	PlayableDirector_PlayOnFrame_mBD1EEDB85731D65E97110798197A72D2079ED9D5,
+	PlayableDirector_Play_m937BA3BFAA11918A42D9D7874C0668DDD4B40988,
+	PlayableDirector_Stop_m60A3AA3874D92B4740A312ECA0E76210D04F207E,
+	PlayableDirector_Pause_mC5749A3523008A3FD9E9E001999A88EE030FD104,
+	PlayableDirector_Resume_m8D0E95B7A33EEA6F5A7CEF05FE5D6A6B7E3AD178,
+	PlayableDirector_RebuildGraph_m344F4BA72962159E6F76F4B4C2E203BEB802D0F5,
+	PlayableDirector_ClearReferenceValue_m011DC51A81993B00D95ACC74FD90291363AB534C,
+	PlayableDirector_SetReferenceValue_m2CD757BCF2F23538F99A0DE09AC87A03EC90EADE,
+	PlayableDirector_GetReferenceValue_m635841386147673FFBBEF0CD9DA908337F3C97C8,
+	PlayableDirector_GetGenericBinding_mEA8A86CEFAD08BEC596E06C3E1B1E0095E69D020,
+	PlayableDirector_ClearGenericBinding_mB68594465FC0DA4DA847830887157C1BE6D366E1,
+	PlayableDirector_RebindPlayableGraphOutputs_mEDA5855AED2223620A84E0DB99186F4953874B2A,
+	PlayableDirector_ProcessPendingGraphChanges_m97DFC4879F7CC9B7B55B242494D62DDF843844D5,
+	PlayableDirector_HasGenericBinding_m94B154CC81AFA99A98383CA1ED7D56AB46E463DB,
+	PlayableDirector_GetPlayState_m530EE60FE30CAAB5BCA57F96C93964A26DD254BE,
+	PlayableDirector_SetWrapMode_mDA42ABB7479C351AA377797F29DCEA54684264DB,
+	PlayableDirector_GetWrapMode_m91F64F0166340F3C55911879B448B32C3271686A,
+	PlayableDirector_EvaluateNextFrame_m07FBD909431C2A913B46581622A247A469B3FBEC,
+	PlayableDirector_GetGraphHandle_m71F1BC34DF71AAACDDC44ACC74FFD66200875896,
+	PlayableDirector_SetPlayOnAwake_m4ABF4DB3685AB38CBBC856FD52D8C1BD3D89D755,
+	PlayableDirector_GetPlayOnAwake_mDF2FAEAD040E29871245FB5AD6A9AA525B5B64C3,
+	PlayableDirector_Internal_SetGenericBinding_m5889234A1C5222C3ACFA329202AD6D58B3C4AFC5,
+	PlayableDirector_SetPlayableAsset_mCB30A400861B0D554BF6B397A2469B4C15AAE01D,
+	PlayableDirector_Internal_GetPlayableAsset_m74CF2B5E24E39114ED3A256185175BCC2CF31F24,
+	PlayableDirector_add_played_m8A41D810B43EA46886904460F74EFD184AAE8604,
+	PlayableDirector_remove_played_mEDED15F8A15D2D32F464D1B9C07AF51451BF4374,
+	PlayableDirector_add_paused_m23F6F60C960AAA38C9C73CC75265D3E3FF0105DB,
+	PlayableDirector_remove_paused_m5AC5D63CBF564106D6A4EA018CC5D851C6F5AF31,
+	PlayableDirector_add_stopped_m8162B112FF06D90F144C49E6C990F705DFC28C96,
+	PlayableDirector_remove_stopped_m615BBD51C1CA79B01469504CD9403C84938C535F,
+	PlayableDirector_ResetFrameTiming_m6842816BD7123E2F0AD11D198DA684199BB03206,
+	PlayableDirector_SendOnPlayableDirectorPlay_m7F75DBA4355DAA92F53AC337BB952069B63081A0,
+	PlayableDirector_SendOnPlayableDirectorPause_m1B8EE7CBD23957C664AA417A9261194DFFFADFE1,
+	PlayableDirector_SendOnPlayableDirectorStop_m4E9AEB579B8EA66ECC6FA9BE23BBF7973AB3EDD7,
+	PlayableDirector__ctor_mAC3BE2F955641A2D384EAE3235FFBF8ECFD27E3B,
+	PlayableDirector_set_timeUpdateMode_Injected_mA4C0946C83A67C4C9EC105FE99DB79B1318577A1,
+	PlayableDirector_get_timeUpdateMode_Injected_m7EBE44D6F02FDF69257B401E8ACBD4A930DC894B,
+	PlayableDirector_set_time_Injected_m7EDEBA105958A9CFD41C4AFFEB06937ACAA13CF8,
+	PlayableDirector_get_time_Injected_m5722262666B2F15C64B5808B075D35BC21B5A17F,
+	PlayableDirector_set_initialTime_Injected_m88738F7173CEE5790408BC8C68D300B79F45F499,
+	PlayableDirector_get_initialTime_Injected_m2C08038A577C5B67351C6D5A4514C3C2807FEC77,
+	PlayableDirector_get_duration_Injected_mC5583B608A16B5805391BEBC35A8908C958F40DC,
+	PlayableDirector_Evaluate_Injected_m25F97DF7CF2A0519E7E193BD09A3D933378BDAE6,
+	PlayableDirector_PlayOnFrame_Injected_mAA9B323F9E7F6F40F72753F281DFB334331D900C,
+	PlayableDirector_Play_Injected_m32655FF0EA2EB49170EB24A157537F9281F255BB,
+	PlayableDirector_Stop_Injected_m78F1D94BF181780F3FAE61B3E40A2D0121F9ECBF,
+	PlayableDirector_Pause_Injected_m54D6643FC6939E2E691242CAA79C828C6D5F44A7,
+	PlayableDirector_Resume_Injected_m46A4738670202E3B39AC903B498BC4FAAB3ADAB8,
+	PlayableDirector_RebuildGraph_Injected_m89446B9A20AECAC8780235674BCC9ADBE47005F7,
+	PlayableDirector_ClearReferenceValue_Injected_mBBB2EC5FEFD9F48CB6161465F33322025CF5FC5E,
+	PlayableDirector_SetReferenceValue_Injected_mF972CE31046AC1A5008023A46BEA3DD5EEB0499A,
+	PlayableDirector_GetReferenceValue_Injected_mEB2069AE5364ACFD7D8ACEC39A0A41AFE9487B5B,
+	PlayableDirector_GetGenericBinding_Injected_m9DEA68F070EBDF1DD99701F71B31E274A66B0959,
+	PlayableDirector_ClearGenericBinding_Injected_mA58AEF8EBA03934B78921D8EA735D03587305828,
+	PlayableDirector_RebindPlayableGraphOutputs_Injected_m50C4BE8F21CA228BD061FCC0F043D2A734E7F53A,
+	PlayableDirector_ProcessPendingGraphChanges_Injected_m99C03613D7A3D8FEC362C845D440BD8CB5C778FC,
+	PlayableDirector_HasGenericBinding_Injected_m1BADADA01CC60C9B012FA2AE55BEAB79E35EB1E8,
+	PlayableDirector_GetPlayState_Injected_mB4EC1173A623C1F93BBF2F07B35571FCE4BABB9D,
+	PlayableDirector_SetWrapMode_Injected_mD56EA105111828B1B10DA96E0648A8D78AF25088,
+	PlayableDirector_GetWrapMode_Injected_m829B6C82F8AA732137040887679EAB3A5A8BBDF6,
+	PlayableDirector_EvaluateNextFrame_Injected_m987A396334AC647BDD747823C605144FF48DF9EF,
+	PlayableDirector_GetGraphHandle_Injected_mC00F0AADEE9F9D60651B56941E2365A010F0A795,
+	PlayableDirector_SetPlayOnAwake_Injected_m4499C6650BD092A230E7BA6401A252DFA54612C6,
+	PlayableDirector_GetPlayOnAwake_Injected_m729273BE9902E44B531E56C3945C6843CB8D7109,
+	PlayableDirector_Internal_SetGenericBinding_Injected_m569BFD74C51A3195F7FCDC3C8537C05BDF0F6EEA,
+	PlayableDirector_SetPlayableAsset_Injected_m29B2F60A5F59F4952A48DF0303E21783CE900335,
+	PlayableDirector_Internal_GetPlayableAsset_Injected_m4B7AD1ADA45F69AE77C90254710CA4D8B4721186,
+	NULL,
+	PlayableSystems_RegisterSystemPhaseDelegate_mE258A19174C6B5F548CC8CD08D76AF2EDAE0220E,
+	PlayableSystems_CombineTypeAndIndex_mEBEB1D607AD575E4529FB65639A36EC27B6AFD4B,
+	PlayableSystems_Internal_CallSystemDelegate_m136EBFEF08BD32F54BD31618B0ADC065128F8172,
+	PlayableSystems_RegisterStreamStage_m13871D003178637C5452ED9F9782F22D7868144F,
+	PlayableSystems__cctor_m2BFE9B62FC9C8645D7BFCECA1F01375AA78CF96D,
+	PlayableSystemDelegate__ctor_m10A39FB62385BCDF62B66BD42D6D530E5E6A1327,
+	PlayableSystemDelegate_Invoke_mD76C614ECD430C10A80EEC63C48F4FF1AB028CDA,
+	PlayableSystemDelegate_BeginInvoke_m11116C9E05C72EE34CEA64E579565B232898CE86,
+	PlayableSystemDelegate_EndInvoke_m7FDC2AAD69F73ECA6B5AA90B424F35D3A3B550A9,
+	DataPlayableOutputList__ctor_m09A66E3E13839499FC39827D4D9D0DDFA2DD67DE,
+	DataPlayableOutputList_get_Item_mA80CA406E46F4F080ABAB99E051D5E2D0AE45E50,
+	DataPlayableOutputList_get_Count_m0EC8BD2A1019FCD8FC91958C77984A0E82510563,
+	DataPlayableOutputList_GetEnumerator_m9DF35C937E6EA512473E9325907F67F7193F44E3,
+	DataPlayableOutputList_System_Collections_IEnumerable_GetEnumerator_mAC992F70F1C916ED4E6C25D1E11E131E74E300CA,
+	DataPlayableOutputEnumerator__ctor_mF4F8AA9EA2C8DFCA012153075C455776E4DCACA9,
+	DataPlayableOutputEnumerator_get_Current_m5D0C5B0FB965DE063CF30355005A469AF5CA662E,
+	DataPlayableOutputEnumerator_System_Collections_IEnumerator_get_Current_mB75452FA96BDDBB1F1C97FA5BC794110636F4837,
+	DataPlayableOutputEnumerator_Dispose_m5BD2B7D3897D0EBF12FAE16E334B3951BAD4C8A0,
+	DataPlayableOutputEnumerator_MoveNext_m79AF7F2D9D94412B14EE28BA574B598B61B382D9,
+	DataPlayableOutputEnumerator_Reset_mD8CE079A62EAB2C1D0A3D4CC780C7748D47247FF,
+};
+extern void DataPlayableOutput_GetStreamType_m508E2100EDF8A9C1274A526E44E0AC377646FAF2_AdjustorThunk (void);
+extern void DataPlayableOutput_GetConnectionChanged_m737D66E5A32DBCBB7E28FA42E7A60A46666C87FB_AdjustorThunk (void);
+extern void DataPlayableOutput_ClearConnectionChanged_m4E79BCFFF424921B92089D94822B461E5055F59D_AdjustorThunk (void);
+extern void DataPlayableOutput__ctor_m09D4185F0C250450BE1FF451995AC6DFDF8176DD_AdjustorThunk (void);
+extern void DataPlayableOutput_GetHandle_m80B8C82F9002EC765218149A007490FEBAEE07B7_AdjustorThunk (void);
+extern void DataPlayableOutput_GetPlayer_mD4CB86FB8E6BD6B08D9C2375ADC9D57D8164EA03_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[6] = 
+{
+	{ 0x06000011, DataPlayableOutput_GetStreamType_m508E2100EDF8A9C1274A526E44E0AC377646FAF2_AdjustorThunk },
+	{ 0x06000012, DataPlayableOutput_GetConnectionChanged_m737D66E5A32DBCBB7E28FA42E7A60A46666C87FB_AdjustorThunk },
+	{ 0x06000013, DataPlayableOutput_ClearConnectionChanged_m4E79BCFFF424921B92089D94822B461E5055F59D_AdjustorThunk },
+	{ 0x06000017, DataPlayableOutput__ctor_m09D4185F0C250450BE1FF451995AC6DFDF8176DD_AdjustorThunk },
+	{ 0x06000019, DataPlayableOutput_GetHandle_m80B8C82F9002EC765218149A007490FEBAEE07B7_AdjustorThunk },
+	{ 0x0600001C, DataPlayableOutput_GetPlayer_mD4CB86FB8E6BD6B08D9C2375ADC9D57D8164EA03_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[152] = 
+{
+	6857,
+	6715,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	3822,
+	3713,
+	3939,
+	-1,
+	-1,
+	-1,
+	3405,
+	8567,
+	3833,
+	8135,
+	7819,
+	3822,
+	-1,
+	8043,
+	7443,
+	8043,
+	7443,
+	8043,
+	7751,
+	8384,
+	6587,
+	7974,
+	7442,
+	5232,
+	5217,
+	-1,
+	-1,
+	3784,
+	3366,
+	3784,
+	3822,
+	3399,
+	3830,
+	3713,
+	3304,
+	3939,
+	3336,
+	3399,
+	2290,
+	2297,
+	3366,
+	3784,
+	3326,
+	3737,
+	3326,
+	3737,
+	3737,
+	3939,
+	3336,
+	3939,
+	3939,
+	3939,
+	3939,
+	3939,
+	3411,
+	2328,
+	1964,
+	3016,
+	3399,
+	3939,
+	3939,
+	2686,
+	3784,
+	3366,
+	3784,
+	3939,
+	3830,
+	3304,
+	3713,
+	2297,
+	3399,
+	3822,
+	3399,
+	3399,
+	3399,
+	3399,
+	3399,
+	3399,
+	8697,
+	3939,
+	3939,
+	3939,
+	3939,
+	7491,
+	7937,
+	7489,
+	7855,
+	7489,
+	7855,
+	7855,
+	8400,
+	7485,
+	8400,
+	8400,
+	8400,
+	8400,
+	8400,
+	7485,
+	6472,
+	6148,
+	7122,
+	7493,
+	8400,
+	8400,
+	6811,
+	7937,
+	7491,
+	7937,
+	8400,
+	7485,
+	7487,
+	7769,
+	6503,
+	7493,
+	7982,
+	-1,
+	6574,
+	7053,
+	5241,
+	7067,
+	8697,
+	2292,
+	3399,
+	1306,
+	3399,
+	2110,
+	2833,
+	3784,
+	3822,
+	3822,
+	3399,
+	3729,
+	3822,
+	3939,
+	3713,
+	3939,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[8] = 
+{
+	{ 0x02000003, { 0, 11 } },
+	{ 0x0600000F, { 11, 2 } },
+	{ 0x06000010, { 13, 1 } },
+	{ 0x06000014, { 14, 2 } },
+	{ 0x06000015, { 16, 2 } },
+	{ 0x06000016, { 18, 1 } },
+	{ 0x0600001D, { 19, 1 } },
+	{ 0x06000084, { 20, 1 } },
+};
+extern const uint32_t g_rgctx_DataPlayable_1_t71D57DC04995C4EE8453FEE8B2AD69EF6F9DC083;
+extern const uint32_t g_rgctx_DataPlayable_1_t71D57DC04995C4EE8453FEE8B2AD69EF6F9DC083;
+extern const uint32_t g_rgctx_DataPlayable_1_t71D57DC04995C4EE8453FEE8B2AD69EF6F9DC083;
+extern const uint32_t g_rgctx_TPayload_tC4679E8078206AC06D09432E3F6A4AD217CEFCD4;
+extern const uint32_t g_rgctx_DataPlayable_1_Create_mEC1EF0CC84C4B027D06C18CF7C5FAD3A95D6888D;
+extern const uint32_t g_rgctx_TPayload_tC4679E8078206AC06D09432E3F6A4AD217CEFCD4;
+extern const uint32_t g_rgctx_DataPlayable_1_CreateHandle_m8CB324E23729889BA5AF9EA331ADA1CD3D2EA0E6;
+extern const uint32_t g_rgctx_DataPlayable_1__ctor_mA7502896D21D7F8A4EC239D6A0F7C616E0623F79;
+extern const uint32_t g_rgctx_PlayableHandle_GetPayload_TisTPayload_tC4679E8078206AC06D09432E3F6A4AD217CEFCD4_m8596D53837A9D141A8A9B6BB48CE57E753356796;
+extern const uint32_t g_rgctx_PlayableHandle_SetPayload_TisTPayload_tC4679E8078206AC06D09432E3F6A4AD217CEFCD4_m7A4B03930AC7BDDDE0C012BC534D4E712E1F98B5;
+extern const uint32_t g_rgctx_DataPlayable_1_GetHandle_mBB6982FF4A2F07D94D3467FD524C0FE957B8030F;
+extern const uint32_t g_rgctx_TPlayer_tD93223BE2A138FCFB7978422846A8E034D592E70;
+extern const uint32_t g_rgctx_DataPlayableBinding_CreateDataOutput_TisTDataStream_t9A02B477D19586F4DC951CFB952D0CA68E215185_m4CE84A7228974AC97C6EC63F3ED20378393768AC;
+extern const uint32_t g_rgctx_DataPlayableOutput_Create_TisTDataStream_tA95A1F3B2D1D6DCB2BDFD82CEA02487EDFA4E875_m358A472BE4810AF6D85E80C197B7334A5B418EC5;
+extern const uint32_t g_rgctx_TDataStream_tB9053946D81DF3912C7515F05F468738B725DAC4;
+extern const uint32_t g_rgctx_TDataStream_tB9053946D81DF3912C7515F05F468738B725DAC4;
+extern const uint32_t g_rgctx_TDataStream_t49F7A95EF0FE109BA032B79126B96A4B0DE9DBFF;
+extern const uint32_t g_rgctx_TDataStream_t49F7A95EF0FE109BA032B79126B96A4B0DE9DBFF;
+extern const uint32_t g_rgctx_TDataStream_t1C6307E5501A3450B5588DDA900A0EED696909CF;
+extern const uint32_t g_rgctx_TPlayer_tA5424EB2B7D538EA32F4CE95A6BA8031EDC0480A;
+extern const uint32_t g_rgctx_TDataStream_t72E0ACE8A83267474E2FA050715B6BA60674DBB3;
+static const Il2CppRGCTXDefinition s_rgctxValues[21] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_DataPlayable_1_t71D57DC04995C4EE8453FEE8B2AD69EF6F9DC083 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_DataPlayable_1_t71D57DC04995C4EE8453FEE8B2AD69EF6F9DC083 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_DataPlayable_1_t71D57DC04995C4EE8453FEE8B2AD69EF6F9DC083 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TPayload_tC4679E8078206AC06D09432E3F6A4AD217CEFCD4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DataPlayable_1_Create_mEC1EF0CC84C4B027D06C18CF7C5FAD3A95D6888D },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TPayload_tC4679E8078206AC06D09432E3F6A4AD217CEFCD4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DataPlayable_1_CreateHandle_m8CB324E23729889BA5AF9EA331ADA1CD3D2EA0E6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DataPlayable_1__ctor_mA7502896D21D7F8A4EC239D6A0F7C616E0623F79 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_PlayableHandle_GetPayload_TisTPayload_tC4679E8078206AC06D09432E3F6A4AD217CEFCD4_m8596D53837A9D141A8A9B6BB48CE57E753356796 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_PlayableHandle_SetPayload_TisTPayload_tC4679E8078206AC06D09432E3F6A4AD217CEFCD4_m7A4B03930AC7BDDDE0C012BC534D4E712E1F98B5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DataPlayable_1_GetHandle_mBB6982FF4A2F07D94D3467FD524C0FE957B8030F },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TPlayer_tD93223BE2A138FCFB7978422846A8E034D592E70 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DataPlayableBinding_CreateDataOutput_TisTDataStream_t9A02B477D19586F4DC951CFB952D0CA68E215185_m4CE84A7228974AC97C6EC63F3ED20378393768AC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DataPlayableOutput_Create_TisTDataStream_tA95A1F3B2D1D6DCB2BDFD82CEA02487EDFA4E875_m358A472BE4810AF6D85E80C197B7334A5B418EC5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TDataStream_tB9053946D81DF3912C7515F05F468738B725DAC4 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TDataStream_tB9053946D81DF3912C7515F05F468738B725DAC4 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TDataStream_t49F7A95EF0FE109BA032B79126B96A4B0DE9DBFF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TDataStream_t49F7A95EF0FE109BA032B79126B96A4B0DE9DBFF },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TDataStream_t1C6307E5501A3450B5588DDA900A0EED696909CF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TPlayer_tA5424EB2B7D538EA32F4CE95A6BA8031EDC0480A },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TDataStream_t72E0ACE8A83267474E2FA050715B6BA60674DBB3 },
+};
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_DirectorModule;
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_DirectorModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_DirectorModule_CodeGenModule = 
+{
+	"UnityEngine.DirectorModule.dll",
+	152,
+	s_methodPointers,
+	6,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	8,
+	s_rgctxIndices,
+	21,
+	s_rgctxValues,
+	&g_DebuggerMetadataRegistrationUnityEngine_DirectorModule,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
